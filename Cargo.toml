@@ -1,0 +1,18 @@
+[package]
+name = "bare-metal-experiments"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "arduino-uno-smd-r2-led-blinking"
+path = "src/bin/arduino_uno_smd_r2/led_blinking.rs"
+test = false
+bench = false
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
