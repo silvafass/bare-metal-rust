@@ -7,7 +7,7 @@ A simple and minimalist bare metal code experiment for microcontroller learning 
 This project demonstrates bare metal programming in Rust on microcontrolers. It implements a few program examples that runs entirely without an operating system, using only Rust's core library and direct hardware manipulation.
 
 **Boards**
-* [Arduino Uno SMD R2](arduino_uno_smd_r2.md)
+* [Arduino Uno SMD R2](docs/arduino_uno_smd_r2.md)
 
 ## Useful resources
 

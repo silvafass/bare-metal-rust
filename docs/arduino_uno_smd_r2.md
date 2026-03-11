@@ -30,7 +30,7 @@ rustup override set nightly
 
 Build the binary:
 ```bash
-cargo build --target avr-none --release
+cargo build --target avr-none --bin arduino-uno-smd-r2-led-blinking --release
 ```
 So, you can quickly test it using the Simavr simulator:
 ```bash
