@@ -122,6 +122,7 @@ pub extern "C" fn reset_handler() -> ! {
         // short time thinking the system has hung during initialization.
         ptr::write_volatile(RTC_CNTL_WDTWPROTECT_REG, 0x50D83AA1);
         ptr::write_volatile(RTC_CNTL_WDTCONFIG0_REG, 0);
+        ptr::write_volatile(RTC_CNTL_WDTWPROTECT_REG, 0);
 
         // Initialize .bss section to zero
         // This ensures that all uninitialized globals are actually 0.
