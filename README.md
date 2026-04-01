@@ -21,7 +21,7 @@ bare-metal-rust/
 │   ├── arduino_uno_smd_r2.md
 │   └── esp32_ttgo_tdisplay.md
 └── src/bin/
-    ├── arduino_uno_smd_r2/     # Arduino UNO(Xtensa-LX6/AVR) source codes
+    ├── arduino_uno_smd_r2/     # Arduino UNO(AVR) source codes
     │   └── blinks.rs
     └── esp32_ttgo_tdisplay/    # ESP32(Xtensa-LX6) source codes
         ├── blinks.rs

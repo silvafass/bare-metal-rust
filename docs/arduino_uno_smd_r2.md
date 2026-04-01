@@ -17,8 +17,8 @@ sudo apt install gcc-avr avr-libc avrdude simavr
 
 Clone repository locally
 ```bash
-git clone git@github.com:silvafass/bare-metal-experiments.git
-cd bare-metal-experiments
+git clone git@github.com:silvafass/bare-metal-rust.git
+cd bare-metal-rust
 ```
 Follow the instructions in the link below to install the Rust development environment:
 https://rust-lang.org/tools/install/

@@ -48,8 +48,8 @@ espflash board-info --port /dev/ttyUSB0 # get board information
 
 Clone repository locally
 ```bash
-git clone git@github.com:silvafass/bare-metal-experiments.git
-cd bare-metal-experiments
+git clone git@github.com:silvafass/bare-metal-rust.git
+cd bare-metal-rust
 ```
 
 Build the binary:
